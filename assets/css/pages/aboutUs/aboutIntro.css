@@ -1,0 +1,35 @@
+#aboutIntro {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(90deg, #2d6e70be 0%, #2d6e70bb 100%),
+    url("../../../media/Images/AboutUs_Page/AboutUs-IntroBG.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about-intro-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.about-intro-title {
+  font-size: 50px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Roboto";
+  text-align: center;
+  margin-bottom: 28px;
+}
+.about-intro-content > button {
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
+
+}

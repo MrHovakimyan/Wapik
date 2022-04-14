@@ -1,0 +1,30 @@
+/* text underline */
+@import url(../../UI/textUnderLine.css);
+
+/* Header */
+@import url(./pPage_header.css);
+
+/* Prices - Section */
+@import url(./prices.css);
+
+/* Included with all plans - Section */
+@import url(./pPage_addOns.css);
+
+/* Support - Section */
+@import url(./pPage_support.css);
+
+/* Downloads - Section */
+@import url(./pPage_download.css);
+
+/* Footer - Section */
+@import url(../../common/footer.css);
+
+html,
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}

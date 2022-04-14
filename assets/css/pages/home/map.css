@@ -1,0 +1,38 @@
+#map {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #edf1eb;
+}
+.map-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0px;
+}
+
+.map-title {
+  font-size: 32px;
+  line-height: 20px;
+  color: #0f5f5c;
+  font-weight: 300;
+  font-family: "Roboto";
+  margin-bottom: 20px;
+}
+.map-text {
+  width: 495px;
+  /* height: 115px; */
+  font-size: 14px;
+  line-height: 24px;
+  color: #83a7a5;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+.mapdotedImgmapdotedImg {
+  max-width: 711px;
+}
+.mapImg {
+  overflow-x: hidden;
+}

@@ -1,0 +1,9 @@
+:root {
+  --primary: green;
+  /* --primary--light */
+  --sedondary: blue;
+  /* --secondary-light */
+
+  /* Base colors */
+  --white: #ffffff;
+}

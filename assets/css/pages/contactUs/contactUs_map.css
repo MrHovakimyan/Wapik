@@ -1,0 +1,13 @@
+#contactUs-Map {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contactUs-MapImg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}

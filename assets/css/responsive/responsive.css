@@ -1,0 +1,416 @@
+/* Max Width - 1200px */
+@media (max-width: 1200px) {
+  .container {
+    width: 95%;
+  }
+  .handIcon {
+    max-height: 470px;
+    overflow-y: hidden;
+    max-width: 80%;
+    overflow-x: auto;
+  }
+}
+/* Max Width - 1100px */
+@media (max-width: 1100px) {
+  .respText,
+  .respCheck-text {
+    width: 380px;
+  }
+  .testimonImg {
+    width: 400px;
+    height: 400px;
+  }
+}
+/* Max Width - 1045px */
+@media (max-width: 1045px) {
+  .btmFeatIcon-Info {
+    width: 395px;
+  }
+  .mainFeat-info {
+    width: 300px;
+  }
+}
+
+/* Max Width - 992px */
+@media (max-width: 992px) {
+  .header_burger-menu,
+  .pPage-header_burger-menu,
+  .contactUs-header_burger-menu,
+  .about-header_burger-menu {
+    display: block;
+  }
+  .header_burger-line,
+  .pPage-header_burger-line,
+  .contactUs-header_burger-line,
+  .about-header_burger-line {
+    width: 35px;
+    height: 4px;
+    background-color: #2275a5;
+    margin: 5px 0;
+  }
+  .header-nav,
+  .pPage-header-nav,
+  .contactUs-header-nav,
+  .about-header-nav {
+    display: none;
+  }
+  .mainFeat-info {
+    width: 280px;
+    height: 85px;
+  }
+  .btmFeatIcon-Info {
+    width: 335px;
+  }
+  .respText,
+  .respCheck-text {
+    width: 350px;
+  }
+  .testimon-text {
+    width: 450px;
+  }
+  .map-title,
+  .map-text {
+    width: 445px;
+  }
+  .map-title {
+    line-height: normal;
+  }
+  .plansItem,
+  .pPage-plansItem {
+    margin: 8px;
+  }
+  .plansList,
+  .pPage-plansList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .team-members_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .about-intro-title {
+    font-size: 40px;
+  }
+}
+
+/* Max Width - 945px */
+@media (max-width: 945px) {
+  .handIcon {
+    margin-left: -75px;
+  }
+}
+
+/* Max Width - 870px */
+@media (max-width: 870px) {
+  .handIcon {
+    margin-left: -135px;
+  }
+  .testimonImg {
+    width: 320px;
+    height: 320px;
+  }
+  .testimon-text {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .map-title,
+  .map-text {
+    width: 380px;
+  }
+  .featLogo {
+    width: 45px;
+    height: 45px;
+  }
+  .mainFeat-info {
+    width: 300px;
+    height: 100px;
+  }
+  .mainFeats_wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 70px 0px 28px;
+  }
+}
+
+/* Max Width - 800px */
+@media (max-width: 800px) {
+  .handIcon {
+    margin-left: -170px;
+  }
+  .testimonImg {
+    width: 310px;
+    height: 310px;
+  }
+  .testimon-text {
+    font-size: 18px;
+    line-height: 20px;
+    width: 350px;
+  }
+  .map-title,
+  .map-text {
+    width: 350px;
+  }
+  .map-title {
+    font-size: 28px;
+  }
+  .priceTariff,
+  .pPage-Tariff {
+    width: 230px;
+    height: 340px;
+  }
+  .priceUSD,
+  .pPage-USD {
+    font-size: 55px;
+    line-height: 88px;
+  }
+  .priceTariff > a > button,
+  .pPage-Tariff > button {
+    padding: 11px 20px;
+  }
+  .user-details,
+  .contact_massage {
+    width: 450px;
+  }
+  .headquarter_wrapper {
+    padding: 10px;
+    margin: 20px;
+  }
+  .download-content,
+  .contactUs-download-content,
+  .aboutUs-download-content,
+  .pPage-download-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .downloadInfo-subtitle,
+  .contactUs-downloadInfo-subtitle,
+  .aboutUs-downloadInfo-subtitle,
+  .pPage-downloadInfo-subtitle {
+    margin-bottom: 15px;
+  }
+  .bottomFeats_wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .btmFeatIcon-Info {
+    width: 300px;
+    margin-bottom: 40px;
+  }
+}
+
+/* Max Width - 764px */
+@media (max-width: 764px) {
+  .respText {
+    width: 300px;
+  }
+  .respCheck_wrapper {
+    display: none;
+  }
+  .aboutUs-content {
+    padding: 74px 0px 85px;
+  }
+  .aboutUs-text {
+    width: 705px;
+    font-size: 14px;
+  }
+  .aboutUs-mainFeats_wrapper {
+    margin: 40px 0px 12px;
+  }
+  .aboutUs-title_wrapper > .horizSeparator {
+    margin: 14px 0px 25px;
+  }
+  .aboutUs-title {
+    font-size: 28px;
+  }
+  .aboutUs-mainFeat-info {
+    width: 85%;
+    height: 80px;
+  }
+  .aboutUs-mainFeat-name {
+    margin: 18px 0px 14px;
+  }
+}
+/* Max Width - 710px */
+@media (max-width: 710px) {
+  .aboutUs-text {
+    display: none;
+  }
+  .aboutUs-mainFeats_wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .aboutUs-mainFeat-info {
+    width: 65%;
+    height: 80px;
+  }
+  .MembPic {
+    width: 220px;
+    height: 160px;
+  }
+  .user-details,
+  .contact_massage {
+    width: 350px;
+  }
+}
+/* Max Width - 672px */
+@media (max-width: 672px) {
+  .handIcon {
+    display: none;
+  }
+  .testimonImg {
+    width: 290px;
+    height: 290px;
+  }
+  .testimon-text {
+    font-size: 16px;
+    line-height: 18px;
+    width: 270px;
+  }
+  .map-title,
+  .map-text {
+    width: 270px;
+  }
+  .respText {
+    width: 380px;
+  }
+  .respInfo_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .respCheck_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .resp-content {
+    padding-bottom: 30px;
+  }
+  .lastColumn {
+    display: none;
+  }
+  .intro-title,
+  .respTitle,
+  .featTitle,
+  .respText-title,
+  .priceTitle,
+  .ourTeam-title,
+  .pPage-addOns-title,
+  .pPage-supportTitle {
+    line-height: normal;
+  }
+}
+
+/* Max Width - 575px */
+@media (max-width: 575px) {
+  .testimon-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    align-items: center;
+    padding: 136px 0px;
+  }
+  .testimonImg {
+    width: 310px;
+    height: 310px;
+    background-position: cover;
+    margin-bottom: 20px;
+  }
+  .testimon-text {
+    font-size: 18px;
+    line-height: 20px;
+    width: 290px;
+  }
+  .user-details,
+  .contact_massage {
+    width: 310px;
+  }
+  .intro-subtitle {
+    width: 415px;
+  }
+}
+
+/* Max Width - 520px */
+@media (max-width: 520px) {
+  .getInTouch-feedbackInfo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .headquarter_wrapper {
+    width: 272px;
+    height: 193px;
+  }
+  .headquarter-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 16px 0px 10px;
+  }
+}
+
+/* Max Width - 493px 426px*/
+@media (max-width: 426px) {
+  .verticalSeparat {
+    margin: 0px 15px;
+  }
+  .intro-subtitle {
+    width: 350px;
+  }
+  .middleSeparator {
+    margin: 0px 0px 40px;
+  }
+  .priceTariff,
+  .pPage-Tariff {
+    width: 200px;
+    height: 320px;
+  }
+  .priceUSD,
+  .pPage-USD {
+    font-size: 45px;
+    line-height: 68px;
+  }
+  .priceTariff > a > button,
+  .pPage-Tariff > button {
+    padding: 11px 20px;
+  }
+}
+
+/* Max Width - 400px*/
+@media (max-width: 400px) {
+  .respText {
+    width: 330px;
+  }
+  .respCheck-text,
+  .respCheck {
+    display: none;
+  }
+  .pPage-Tariffs_wrapper,
+  .priceTariffs_wrapper {
+    flex-wrap: wrap;
+  }
+}
+
+/* Max Width - 375px */

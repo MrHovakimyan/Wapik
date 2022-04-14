@@ -1,0 +1,122 @@
+#getInTouch {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.getInTouch-content {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding: 75px 0px 96px;
+}
+.getInTouch-title_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.getInTouch-title_wrapper > .horizSeparator {
+  margin: 18px 0px;
+}
+.getInTouch-title {
+  font-size: 32px;
+  color: #0f5f5c;
+  font-weight: 300;
+  font-family: "Roboto";
+  text-align: center;
+}
+.getInTouch-subtitle {
+  font-size: 15px;
+  color: #83a7a5;
+  font-weight: 400;
+  font-family: "Roboto";
+  text-align: center;
+}
+.getInTouch-feedbackInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 76px;
+}
+.feedback {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.feedback > .button {
+  width: 120px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.feedback-title {
+  font-size: 22px;
+  letter-spacing: 1px;
+  color: #413d4b;
+  font-weight: 700;
+  font-family: "Playfair Display";
+  text-transform: uppercase;
+  margin-bottom: 23px;
+}
+.user-details {
+  font-size: 14px;
+  line-height: 21px;
+  color: #83a7a5;
+  font-weight: 400;
+  font-family: "Roboto";
+  width: 510px;
+  height: 46px;
+  filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.12));
+  background-color: #ffffff;
+  border: 1px solid #c1d3d2;
+  margin: 18px 0px;
+}
+.contact_massage {
+  font-size: 14px;
+  line-height: 21px;
+  color: #83a7a5;
+  font-weight: 400;
+  font-family: "Roboto";
+  width: 510px;
+  height: 124px;
+  filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.12));
+  background-color: #ffffff;
+  border: 1px solid #c1d3d2;
+  margin: 18px 0px;
+}
+.headquarter_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px;
+  width: 342px;
+  height: 273px;
+  border: 1px dashed #c1d3d2;
+}
+.headquarter-title {
+  font-size: 22px;
+  color: #0f5f5c;
+  font-weight: 500;
+  font-family: "Roboto";
+  text-transform: uppercase;
+  margin: 36px 0px 30px;
+}
+.contactInfo_wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+.contactInfo {
+  font-size: 15px;
+  line-height: 22px;
+  color: #83a7a5;
+  font-weight: 400;
+  font-family: "Roboto";
+  margin-left: 15px;
+}

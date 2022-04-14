@@ -1,0 +1,51 @@
+#support {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.support-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 38px 0px 55px;
+}
+.supportTitle_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.supportTitle {
+  font-size: 32px;
+  line-height: 20px;
+  color: #6fb048;
+  font-weight: 300;
+  font-family: "Roboto";
+  text-align: center;
+  margin-top: 16px;
+}
+.supportInfo {
+  font-size: 15px;
+  line-height: 20px;
+  color: #83a7a5;
+  font-weight: 400;
+  font-family: "Roboto";
+  text-align: center;
+  margin-bottom: 38px;
+}
+.supportEmail {
+  font-size: 18px;
+  line-height: 20px;
+  color: #0f5f5c;
+  font-weight: 400;
+  font-family: "Roboto";
+  text-align: center;
+}
+.supportEmail:hover {
+  color: #255ee2;
+  cursor: pointer;
+}
+.suppIcon:hover {
+  filter: contrast(7);
+  cursor: pointer;
+}

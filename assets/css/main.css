@@ -1,0 +1,25 @@
+/* Variables */
+@import url("./var.css");
+
+/* Typography */
+@import url("..media/fonts/fonts.css");
+
+/* Common */
+@import url("./common/header.css");
+@import url("./common/footer.css");
+
+/* Pages */
+@import url("./pages/home/home.css");
+@import url("./pages/pricingPage/pPage_index.css");
+@import url("./pages/contactUs/contactUs_index.css");
+@import url("./pages/aboutUs/about-index.css");
+
+html,
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}

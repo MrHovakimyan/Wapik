@@ -1,0 +1,27 @@
+/* Header */
+@import url(./about-header.css);
+
+/* About-Intro - Section */
+@import url(./aboutIntro.css);
+
+/* AboutUs - Section */
+@import url(./aboutUs.css);
+
+/* OurTeam - Section */
+@import url(./ourTeam.css);
+
+/* Download - Section */
+@import url(./aboutUs-download.css);
+
+/* Footer */
+@import url(../../common/footer.css);
+
+html,
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}

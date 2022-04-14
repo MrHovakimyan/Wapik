@@ -1,0 +1,121 @@
+@import url(../../UI/base-button.css);
+#contactUs-header {
+  position: relative;
+  width: auto;
+}
+.contactUs-header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 25px 0px;
+  animation: animatedHeader 5s linear 1 backwards;
+}
+.contactUs-headerLogoPhNum_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.contactUs-header-logo_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.contactUs-header-logo {
+  font-size: 29px;
+  line-height: 46px;
+  color: #0f5f5c;
+  font-weight: bold;
+  font-family: "Proxima Nova";
+  text-transform: uppercase;
+}
+.contactUs-verticalSeparat {
+  width: 2px;
+  height: 21px;
+  background-color: #83a7a5;
+  rotate: 90deg;
+  margin: 0px 25px;
+}
+.contactUs-phoneNum_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.contactUs-phoneNum_wrapper:hover {
+  color: rgb(6, 38, 141);
+  background-color: rgba(119, 223, 15, 0.89);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.contactUs-phoneNum {
+  font-size: 13px;
+  line-height: 21px;
+  color: #83a7a5;
+  font-weight: 400;
+  font-family: "Montserrat";
+  margin-left: 6px;
+}
+.contactUs-header-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.contactUs-header_burger-menu {
+  display: none;
+}
+.contactUs-header-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.contactUs-header-list_item {
+  margin: 0px 16px;
+}
+.contactUs-header-list_item_link {
+  font-size: 13px;
+  line-height: 21px;
+  color: #83a7a5;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: right;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  transition: color 3s;
+}
+.contactUs-header-list_item_link:hover {
+  color: rgb(6, 38, 141);
+  background-color: rgba(119, 223, 15, 0.89);
+  border-radius: 5px;
+}
+.contactUs-header-nav > button {
+  background-color: rgba(119, 223, 15, 0.89);
+}
+
+@keyframes animatedHeader {
+  0% {
+    background-color: initial;
+    border-radius: 10px;
+    box-shadow: rgb(163, 224, 103);
+  }
+  25% {
+    background-color: rgb(108, 119, 138);
+    border-radius: 10px;
+    box-shadow: lawngreen;
+  }
+  50% {
+    background-color: rgb(66, 168, 209);
+    border-radius: 10px;
+    box-shadow: lawngreen;
+  }
+  75% {
+    background-color: rgb(99, 194, 197);
+    border-radius: 10px;
+    box-shadow: lawngreen;
+  }
+  100% {
+    background-color: rgb(99, 209, 126);
+    border-radius: 10px;
+    box-shadow: lawngreen;
+  }
+}
