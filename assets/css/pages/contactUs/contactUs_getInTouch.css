@@ -7,7 +7,6 @@
 .getInTouch-content {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   padding: 75px 0px 96px;
 }
 .getInTouch-title_wrapper {
